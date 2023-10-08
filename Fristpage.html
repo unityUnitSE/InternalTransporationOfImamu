@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة تسجيل الدخول</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff; /* اللون الأبيض للخلفية */
+            text-align: center;
+        }
+
+        #logo {
+            margin: 50px auto;
+            width: 150px;
+        }
+
+        #login-form {
+            background-color: #fff;
+            border-radius: 5px;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #login-form h2 {
+            margin-bottom: 20px;
+        }
+
+        #login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        #login-form button {
+            background-color: #41BC3F; /* اللون الأخضر */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        #login-form button:hover {
+            background-color: #000; /* اللون الأسود عند التمرير */
+        }
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <img src="logo.jpg" alt="شعار الشركة">
+    </div>
+    <div id="login-form">
+        <h2>تسجيل الدخول</h2>
+        <form action="process_login.php" method="post">
+            <input type="text" name="username" placeholder="اسم المستخدم" required>
+            <input type="password" name="password" placeholder="كلمة المرور" required>
+            <button type="submit">تسجيل الدخول</button>
+        </form>
+    </div>
+</body>
+</html>
