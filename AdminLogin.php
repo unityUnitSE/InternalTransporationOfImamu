@@ -4,7 +4,7 @@ session_start();
 ?>
 
 <?php
-use 'dbconnection';
+include 'dbconnection.php';
 ?>
 
 <!DOCTYPE html>
