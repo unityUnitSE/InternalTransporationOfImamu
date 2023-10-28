@@ -8,7 +8,7 @@ include 'dbconnection.php';
 ?>
 
 
-<html>
+<html lang="en">
 
 <head>
     <title>Login Page</title>
