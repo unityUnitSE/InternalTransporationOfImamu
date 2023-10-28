@@ -7,7 +7,7 @@ session_start();
 include 'dbconnection.php';
 ?>
 
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
