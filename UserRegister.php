@@ -7,7 +7,7 @@ session_start();
 include 'dbconnection.php';
 ?>
 
-<html>
+<html lang="en">
 
 <head>
     <title>Register Page</title>
