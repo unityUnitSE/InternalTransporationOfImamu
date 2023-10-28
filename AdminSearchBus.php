@@ -15,7 +15,7 @@ if (!isset($_SESSION['MAILID'])) {
 <?php
     exit();
 }
-include_once ('dbconnection.php');
+include ('dbconnection.php');
 
 $stmt = $connection->prepare("select * from admin where MAILID = ?");
 $stmt->bind_param("s", $_SESSION['MAILID']);
