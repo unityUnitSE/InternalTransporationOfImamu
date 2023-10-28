@@ -4,7 +4,7 @@ session_start();
 ?>
 <link rel="stylesheet" href="style.css">
 <?php
-include 'dbconnection.php';
+use 'dbconnection.php';
 ?>
 
 <!DOCTYPE html>
